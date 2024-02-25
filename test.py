@@ -1,4 +1,4 @@
-from file1 import square
+from file1 import func
 def test_func_1():
     assert func (5,7) == 12
 def test_func_2():
