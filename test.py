@@ -6,7 +6,7 @@ class TestFunc(unittest.TestCase):
         self.assertEqual(func(5, 7), 12)
 
     def test_func_2(self):
-        self.assertEqual(func(-4, -3), -3)
+        self.assertEqual(func(-4, -3), -7)
 
     def test_func_3(self):
         self.assertEqual(func(0, 1), 1)
